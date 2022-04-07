@@ -16,6 +16,7 @@ public class LoginAdactin extends BaseClass
 
      {
         openUrl(readProperties("url"));
+      System.out.println("Hi");
    }
 
     @When("enter the {string} and {string}")
